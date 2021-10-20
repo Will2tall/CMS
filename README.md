@@ -14,3 +14,4 @@ Simply type `npm start` in any terminal while in the root directory to begin.
 
 ## Example
 
+![Simple Example](sql.gif)
