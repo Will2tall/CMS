@@ -219,12 +219,12 @@ async function addEmployee() {
         },
         {
             type: 'list',
-            name: 'id',
+            name: 'manager_id',
             message: 'Please choose a manager(if there is no manager simply select none)',
             choices: empChoice
         }
     ])
-    console.log(addEmp)
+   
     await Employee.name(addEmp);
     console.log(`${addEmp.first_name} ${addEmp.last_name} has been added as an employee`)
     mainMenu();
